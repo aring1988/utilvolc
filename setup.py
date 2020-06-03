@@ -25,7 +25,6 @@ setup(name='utilvolc',
       ],
       description='Utilities for use with VOLCAT and HYSPLIT',
       install_requires=[
-          'pandas', 'netcdf4', 'xarray', 'matplotlib',
-          'seaborn', 'cartopy', 'monetio'
+          'pandas', 'xarray', 'numpy', 'matplotlib',
+          'cartopy', 'scipy', 'lmxl', 'datetime'
       ])
-# extra_requires={'xesmf;platform_system!="Windows"'})
