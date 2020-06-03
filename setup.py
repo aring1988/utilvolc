@@ -26,5 +26,5 @@ setup(name='utilvolc',
       description='Utilities for use with VOLCAT and HYSPLIT',
       install_requires=[
           'pandas', 'xarray', 'numpy', 'matplotlib',
-          'cartopy', 'scipy', 'lmxl', 'datetime'
+          'cartopy', 'scipy', 'lxml', 'datetime', 'monetio'
       ])
